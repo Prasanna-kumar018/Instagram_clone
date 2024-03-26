@@ -1,0 +1,13 @@
+.minh
+{
+  min-height: 100vh;
+  padding: 0px 37vmin;
+}
+.right
+{
+   padding-top: 6vmin;
+}
+.shadow-img
+{
+   box-shadow: 0 0 10px 0 white;
+}

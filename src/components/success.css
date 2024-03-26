@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Patua+One&family=Rubik:wght@300&family=Sniglet&display=swap');
+.custom_slider
+{
+     position: absolute;
+     right: 20px;
+     top:20px;
+     z-index: 9999;
+     font-family:  "Sniglet",cursive;   
+     width: fit-content;
+}
+.custom_slider_inner
+{
+     box-shadow: 0px 0px 10px red,
+     0px 0px 10px blue,
+       0px 0px 10px green,
+     0px 0px 30px red; 
+}
+.insta-avatar
+{
+     width: 14%;
+     vertical-align: bottom;
+}

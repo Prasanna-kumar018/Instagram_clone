@@ -1,0 +1,21 @@
+.img
+{
+     padding: 3.5vmin 15vmin;
+     height: auto;
+}
+.img2
+{
+    height: 12vmin;
+    aspect-ratio: 3/1;
+}
+.google
+{
+    width: 6vmin;
+    padding: 1.5vmin;
+    aspect-ratio: 1/1;
+}
+.size-fix
+{
+    height: 8vmin;
+    aspect-ratio: 3/1;
+}

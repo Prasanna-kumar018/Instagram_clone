@@ -1,0 +1,66 @@
+:root{
+     --sidebar-font:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif
+}
+.navbar_custom
+{
+    width: 220px  !important ;
+    font-family: var(--sidebar-font);
+    height: 100vh;
+    box-shadow: 0 0 15px 0 black;
+    padding: 2vmin;
+    max-width: 240px ;
+    font-weight: bold;
+    width: 100%;
+}
+.insta
+{
+  padding: 3vmin 5vmin ;
+}
+.scale
+{
+    transform: scale(1.2);
+}
+.scale:hover
+{
+    background-color: rgba(0, 0, 0, 0.101);   
+}
+.hover_link
+{
+  border-radius: 10px;
+  padding: 1vmin;
+}
+.hover_link:hover
+{
+    text-decoration: none !important;
+    background-color: rgba(0, 0, 0, 0.101);
+}
+ 
+.hover_link:hover .jump
+{
+   animation-name: jump;
+   animation-duration: .3s;   
+   animation-timing-function: ease-out;
+   animation-fill-mode: forwards;
+}
+@keyframes jump {
+    0%
+    {
+      transform: scale(1)
+    }
+    100%
+    {
+        transform: scale(1.3);
+    }
+}
+.shadow
+{
+    box-shadow: 0 10px 102px 2px black,
+    0 10px 20px  100px black;
+}
+@media screen and (width<768px )
+{
+  .navbar_custom
+  {
+    max-width: 70px;
+  }  
+}
